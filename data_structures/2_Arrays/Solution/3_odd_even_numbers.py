@@ -7,3 +7,5 @@ for i in range(1, max):
         odd_numbers.append(i)
 
 print("Odd numbers: ", odd_numbers)
+ls=[i for i in range(max) if i%2!=0 ]
+print(ls)
